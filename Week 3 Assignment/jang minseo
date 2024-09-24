@@ -1,0 +1,12 @@
+테스트코드의 패턴 
+given-when-then패턴 : given은 테스트 실행을 준비하는 단계, when은 테스트를 진행하는 단계, then은 테스트 결과를 검증하는 단계
+
+Junit : 자바 프로그래밍 언어용 단위 테스트 프레임워크 – 코드가 의도대로 작동하는지 작은 단위로 검증하는 것
+
+애너테이션 순서
+Before all – before each – after all – after each순으로
+
+AssertJ를 이용해 기독성을 올림
+Ex) assertion.assertequals(sum, a+b) -> Asserthat(a+b).isequalto(sum)
+
+HTTP주요 응답 코드 – 200ok=isok(), 201 created = iscreated()…
